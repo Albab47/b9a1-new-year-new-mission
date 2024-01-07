@@ -1,0 +1,68 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: 'Merriweather', serif;
+    line-height: 2rem;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 82%;
+    max-width: 82rem;
+    margin: 0 auto;
+}
+
+/* Header */
+#header {
+    height: 37.5rem;
+}
+
+#header .banner {
+    background-image: url('../assets/BannerImage.png');
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100%;
+    margin: 3.3rem auto;
+}
+
+#header .banner .banner-content {
+    color: #FFF;
+    text-align: center;
+    line-height: normal;
+    text-align: center;
+    padding: 11rem 21rem;
+}
+
+#header .banner .banner-content h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#header .banner .banner-content h2 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 5.9375rem;
+}
