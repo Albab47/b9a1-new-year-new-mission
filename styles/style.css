@@ -261,13 +261,78 @@ a {
     width: 7.5rem;
     position: absolute;
     left: 100rem;
-    top: 21.5rem
+    top: 20.5rem
 }
 
+/* Holiday sale  */
+#holiday-sale {
+    margin-top: 10rem;
+    text-align: center;
+    height: 60rem;   
+}
+
+.holiday-sale-content .sub-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.holiday-sale-content .section-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 1.7rem;
+}
+
+.holiday-sale-content .section-title .hot {
+    color: #F00;
+}
+
+.holiday-sale-content  .section-description {
+    max-width: 66.75rem;
+    margin: 0 auto;
+}
+
+#holiday-sale .sale-images {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#holiday-sale .sale-images .img-1 {
+    max-width: 26.8125rem;
+    position: absolute;
+    right: 0rem;
+}
+
+#holiday-sale .sale-images .img-2 {
+    position: absolute;
+    top: 26rem;
+}
+
+#holiday-sale .sale-images .img-3 {
+    max-width: 22.92756rem;
+    position: absolute;
+    right: 17.5rem;
+    top: 3.5rem;
+}
+
+#holiday-sale .sale-images .img-4 {
+    max-width: 25rem;
+    max-width: 45rem;
+    position: absolute;
+    right: 38.5rem;
+    top: 3rem;
+}
 
 /* Portfolio */
 #portfolio {
-    margin-top: 7.5rem;
+    margin-top: 8rem;
 }
 
 #portfolio .section-title,
