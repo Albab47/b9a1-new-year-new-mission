@@ -30,10 +30,28 @@ a {
     color: #fff;
 }
 
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    background: #F00; 
+}
+
 .container {
     width: 82%;
     max-width: 82rem;
     margin: 0 auto;
+}
+
+.flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-text {
@@ -106,3 +124,48 @@ a {
 #offer .offer-container .offer-description .red-text {
     margin-bottom: 1rem;
 }
+
+/* Welcome to party */
+#welcome {
+    margin-top: 7.5rem;
+}
+
+#welcome .container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/Vectorrr.png');
+    height: 37.5rem;
+}
+
+#welcome .welcome-content {
+    max-width: 43.5rem;
+}
+
+#welcome .welcome-content > * {
+    margin-bottom: 1.5rem;
+}
+
+#welcome .welcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 5.5rem;
+    letter-spacing: 0.44rem;
+}
+
+#welcome .welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 166.667% */
+}
+
+#welcome .welcome-image {
+    max-width: 19.99rem;
+}
+
+#welcome .join-btn {
+    background-color: #FA9D01;
+}
+
