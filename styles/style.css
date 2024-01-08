@@ -192,6 +192,40 @@ a {
     background-color: #FA9D01;
 }
 
+/* Event date */
+#event-date {
+    margin-top: 7.5rem;
+}
+
+#event-date .container {
+    height: 30.125rem;
+    background: rgb(255, 182, 182);
+    background: linear-gradient(180deg, rgba(255, 182, 182, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    
+}
+
+#event-date .event-info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+}
+
+#event-date .red-text {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
 /* Portfolio */
 #portfolio {
     margin-top: 7.5rem;
@@ -306,7 +340,7 @@ a {
     height: px;
 }
 
-#footer .second-row .social-links{
+#footer .second-row .social-links {
     /* max-width: 20.5rem;
     margin: 0 auto; */
     display: flex;
