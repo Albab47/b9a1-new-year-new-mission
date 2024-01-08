@@ -14,6 +14,7 @@ body {
     font-family: 'Merriweather', serif;
     line-height: 2rem;
     color: rgba(7, 2, 17, 0.60);
+    overflow-x: hidden;
 }
 
 img {
@@ -50,7 +51,7 @@ a {
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -229,10 +230,6 @@ a {
     margin: 0 auto;
 }
 
-#newsletter {
-    margin-bottom: 7.5rem;
-}
-
 #newsletter .newsletter-img {
     width: 9.3rem;
     margin-bottom: 2.5rem;
@@ -264,4 +261,43 @@ a {
     height: 4.5rem;
     text-transform: capitalize;
     border: 1px solid transparent;
+}
+
+/* Footer */
+#footer {
+    margin-top: 7.5rem;
+    padding: 7.5rem 0;
+    background-color: #070211;
+    color: #fff;
+    height: 38.06rem;
+    font-family: Inter;
+}
+
+#footer .first-row .address {
+    max-width: 23.43rem;
+}
+
+#footer .first-row .contact {
+    max-width: 15.7rem;
+}
+
+#footer .first-row .contact img {
+    max-width: 1.5rem;
+}
+
+#footer hr {
+    margin: 3.12rem 0;
+    border: none;
+    height: 0.06rem;
+    background-color: #333;
+    font-weight: 200;
+    height: px;
+}
+
+#footer .second-row .social-links{
+    /* max-width: 20.5rem;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 }
