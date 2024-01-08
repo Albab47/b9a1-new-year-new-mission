@@ -39,7 +39,7 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 0.5rem;
-    background: #F00; 
+    background: #F00;
 }
 
 .container {
@@ -49,7 +49,7 @@ a {
 }
 
 .flex {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -66,6 +66,24 @@ a {
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
+}
+
+.section-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 160% */
 }
 
 /* Header */
@@ -139,7 +157,7 @@ a {
     max-width: 43.5rem;
 }
 
-#welcome .welcome-content > * {
+#welcome .welcome-content>* {
     margin-bottom: 1.5rem;
 }
 
@@ -169,3 +187,24 @@ a {
     background-color: #FA9D01;
 }
 
+/* Portfolio */
+#portfolio {
+    margin-top: 7.5rem;
+}
+
+#portfolio .section-title, .section-description {
+    margin-bottom: 1.3rem;
+}
+
+#portfolio .portfolio-gallery {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem; */
+    width: 100%;
+}
+
+#portfolio .portfolio-gallery img {
+    max-width: 24.5rem;
+    margin: 0.4rem;
+}
